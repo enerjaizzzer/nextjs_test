@@ -1,0 +1,13 @@
+.menuItem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    transition: 0.3s;
+    font-weight: 700;
+}
+
+.menuItem:hover {
+    color: black;
+    background-color: white;
+}

@@ -1,0 +1,15 @@
+.avatar {
+    box-shadow: inset 10px 10px 10px black;
+    object-fit: contain;
+    mask-image: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 90%, rgba(0,0,0,0) 100%);
+}
+
+.contactsContainer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title {
+    margin-bottom: 20px;
+}
